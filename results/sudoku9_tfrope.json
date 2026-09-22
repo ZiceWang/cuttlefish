@@ -1,0 +1,12 @@
+{
+  "arch": "tfrope",
+  "parameters": 2716224,
+  "hidden": 168,
+  "layers": 8,
+  "steps": 30000,
+  "best": {
+    "loss": 0.00880388543009758,
+    "token_accuracy": 0.9872685074806213,
+    "exact_accuracy": 0.875
+  }
+}

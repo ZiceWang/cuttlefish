@@ -1,0 +1,26 @@
+{
+  "PIQA": {
+    "ropegate8noabs": 0.6221,
+    "transformer": 0.6421,
+    "baseline": 0.5,
+    "n": 299
+  },
+  "HellaSwag": {
+    "ropegate8noabs": 0.2467,
+    "transformer": 0.3,
+    "baseline": 0.25,
+    "n": 300
+  },
+  "Winogrande": {
+    "ropegate8noabs": 0.4867,
+    "transformer": 0.4767,
+    "baseline": 0.5,
+    "n": 300
+  },
+  "ARC-Easy": {
+    "ropegate8noabs": 0.3758,
+    "transformer": 0.3758,
+    "baseline": 0.25,
+    "n": 298
+  }
+}

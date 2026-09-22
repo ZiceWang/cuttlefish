@@ -1,0 +1,12 @@
+{
+  "arch": "liv",
+  "parameters": 2747304,
+  "hidden": 184,
+  "layers": 5,
+  "steps": 30000,
+  "best": {
+    "loss": 2.2628300189971924,
+    "token_accuracy": 0.10455247014760971,
+    "exact_accuracy": 0.0
+  }
+}

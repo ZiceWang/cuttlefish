@@ -1,0 +1,38 @@
+[
+  {
+    "path": "data/ultrafineweb_l3_probe/data/ultrafineweb_en_l3/multi_style/part-00000-f36f5a53-4a77-434b-b9bc-67ed69b93fe2-c000.snappy.parquet",
+    "bytes": 1076790541,
+    "rows": 684939,
+    "tokens": 315763543,
+    "tokens_per_row": 461.0097293335611,
+    "seconds": 159.80725479125977,
+    "shards_for_3b": 9.500780145477403
+  },
+  {
+    "path": "data/ultrafineweb_l3_probe/data/ultrafineweb_en_l3/qa/part-00000-37dc9f21-f87f-4f43-8dd2-134424f1537a-c000.snappy.parquet",
+    "bytes": 1076263470,
+    "rows": 519627,
+    "tokens": 425840210,
+    "tokens_per_row": 819.5113225448255,
+    "seconds": 210.82415676116943,
+    "shards_for_3b": 7.044896018626329
+  },
+  {
+    "path": "data/ultrafineweb_l3_probe/data/ultrafineweb_zh_l3/multi_style/part-00000-c13afd3b-b5fb-4acd-97dc-e045a844c126-c000.snappy.parquet",
+    "bytes": 1076052735,
+    "rows": 712301,
+    "tokens": 309355096,
+    "tokens_per_row": 434.30389119206626,
+    "seconds": 128.53340792655945,
+    "shards_for_3b": 9.697593602919023
+  },
+  {
+    "path": "data/ultrafineweb_l3_probe/data/ultrafineweb_zh_l3/qa/part-00000-100cee91-ea2e-4268-9b98-1403cd5d9d11-c000.snappy.parquet",
+    "bytes": 1074489824,
+    "rows": 505269,
+    "tokens": 408999071,
+    "tokens_per_row": 809.467968547447,
+    "seconds": 124.73283648490906,
+    "shards_for_3b": 7.3349799858102855
+  }
+]

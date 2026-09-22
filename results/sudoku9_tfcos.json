@@ -1,0 +1,12 @@
+{
+  "arch": "tfcos",
+  "parameters": 2716224,
+  "hidden": 168,
+  "layers": 8,
+  "steps": 30000,
+  "best": {
+    "loss": 0.02209537662565708,
+    "token_accuracy": 0.9614197611808777,
+    "exact_accuracy": 0.71875
+  }
+}

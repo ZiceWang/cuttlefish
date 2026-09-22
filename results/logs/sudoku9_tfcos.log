@@ -1,0 +1,67 @@
+[tfcos] d=168 L=8 params=2,716,224 device=cuda
+.venv/lib/python3.13/site-packages/torch/_inductor/compile_fx.py:322: UserWarning: TensorFloat32 tensor cores for float32 matrix multiplication available but not enabled. Consider setting `torch.set_float32_matmul_precision('high')` for better performance.
+  warnings.warn(
+W0831 08:58:37.066000 996603 torch/_inductor/cudagraph_utils.py:343] [__cudagraphs] CUDAGraph supports dynamic shapes by recording a new graph for each distinct input size. Recording too many CUDAGraphs may lead to extra overhead. We have observed 9 distinct sizes. Please consider the following options for better performance: a) padding inputs to a few fixed number of shapes; or b) set torch._inductor.config.triton.cudagraph_skip_dynamic_graphs=True. Set torch._inductor.config.triton.cudagraph_dynamic_shape_warn_limit=None to silence this warning.
+step=1/30000 train_loss=2.4298 eval_loss=2.2629 token_acc=0.1103 exact_acc=0.0000 best_exact=0.0000
+step=500/30000 train_loss=0.5509 eval_loss=0.5632 token_acc=0.3623 exact_acc=0.0000 best_exact=0.0000
+step=1000/30000 train_loss=0.2665 eval_loss=0.2559 token_acc=0.5413 exact_acc=0.0000 best_exact=0.0000
+step=1500/30000 train_loss=0.1551 eval_loss=0.1662 token_acc=0.6339 exact_acc=0.0000 best_exact=0.0000
+step=2000/30000 train_loss=0.1193 eval_loss=0.0964 token_acc=0.7033 exact_acc=0.0000 best_exact=0.0000
+step=2500/30000 train_loss=0.0811 eval_loss=0.0774 token_acc=0.7593 exact_acc=0.0625 best_exact=0.0625
+step=3000/30000 train_loss=0.0762 eval_loss=0.0843 token_acc=0.7724 exact_acc=0.0938 best_exact=0.0938
+step=3500/30000 train_loss=0.0663 eval_loss=0.0760 token_acc=0.7917 exact_acc=0.1562 best_exact=0.1562
+step=4000/30000 train_loss=0.0770 eval_loss=0.0602 token_acc=0.7851 exact_acc=0.1250 best_exact=0.1562
+step=4500/30000 train_loss=0.0669 eval_loss=0.0638 token_acc=0.7650 exact_acc=0.0625 best_exact=0.1562
+step=5000/30000 train_loss=0.0623 eval_loss=0.0597 token_acc=0.7998 exact_acc=0.0938 best_exact=0.1562
+step=5500/30000 train_loss=0.0646 eval_loss=0.0581 token_acc=0.8260 exact_acc=0.1875 best_exact=0.1875
+step=6000/30000 train_loss=0.0592 eval_loss=0.0613 token_acc=0.8025 exact_acc=0.2500 best_exact=0.2500
+step=6500/30000 train_loss=0.0530 eval_loss=0.0495 token_acc=0.8237 exact_acc=0.1250 best_exact=0.2500
+step=7000/30000 train_loss=0.0513 eval_loss=0.0594 token_acc=0.8650 exact_acc=0.1562 best_exact=0.2500
+step=7500/30000 train_loss=0.0447 eval_loss=0.0463 token_acc=0.8229 exact_acc=0.1562 best_exact=0.2500
+step=8000/30000 train_loss=0.0531 eval_loss=0.0600 token_acc=0.8538 exact_acc=0.1875 best_exact=0.2500
+step=8500/30000 train_loss=0.0440 eval_loss=0.0480 token_acc=0.7886 exact_acc=0.1875 best_exact=0.2500
+step=9000/30000 train_loss=0.0421 eval_loss=0.0469 token_acc=0.8588 exact_acc=0.1875 best_exact=0.2500
+step=9500/30000 train_loss=0.0440 eval_loss=0.0420 token_acc=0.8819 exact_acc=0.2188 best_exact=0.2500
+step=10000/30000 train_loss=0.0529 eval_loss=0.0433 token_acc=0.8742 exact_acc=0.3125 best_exact=0.3125
+step=10500/30000 train_loss=0.0346 eval_loss=0.0372 token_acc=0.8812 exact_acc=0.3125 best_exact=0.3125
+step=11000/30000 train_loss=0.0346 eval_loss=0.0377 token_acc=0.8974 exact_acc=0.4375 best_exact=0.4375
+step=11500/30000 train_loss=0.0391 eval_loss=0.0399 token_acc=0.9105 exact_acc=0.4375 best_exact=0.4375
+step=12000/30000 train_loss=0.0415 eval_loss=0.0402 token_acc=0.9190 exact_acc=0.3125 best_exact=0.4375
+step=12500/30000 train_loss=0.0355 eval_loss=0.0368 token_acc=0.8781 exact_acc=0.3438 best_exact=0.4375
+step=13000/30000 train_loss=0.0316 eval_loss=0.0419 token_acc=0.8600 exact_acc=0.2188 best_exact=0.4375
+step=13500/30000 train_loss=0.0404 eval_loss=0.0439 token_acc=0.8642 exact_acc=0.2812 best_exact=0.4375
+step=14000/30000 train_loss=0.0337 eval_loss=0.0248 token_acc=0.8978 exact_acc=0.3438 best_exact=0.4375
+step=14500/30000 train_loss=0.0298 eval_loss=0.0371 token_acc=0.8727 exact_acc=0.2812 best_exact=0.4375
+step=15000/30000 train_loss=0.0362 eval_loss=0.0235 token_acc=0.8947 exact_acc=0.3438 best_exact=0.4375
+step=15500/30000 train_loss=0.0293 eval_loss=0.0355 token_acc=0.8742 exact_acc=0.3125 best_exact=0.4375
+step=16000/30000 train_loss=0.0261 eval_loss=0.0298 token_acc=0.8735 exact_acc=0.2812 best_exact=0.4375
+step=16500/30000 train_loss=0.0285 eval_loss=0.0209 token_acc=0.9055 exact_acc=0.5625 best_exact=0.5625
+step=17000/30000 train_loss=0.0279 eval_loss=0.0316 token_acc=0.9035 exact_acc=0.2188 best_exact=0.5625
+step=17500/30000 train_loss=0.0244 eval_loss=0.0238 token_acc=0.9302 exact_acc=0.4688 best_exact=0.5625
+step=18000/30000 train_loss=0.0411 eval_loss=0.0264 token_acc=0.9086 exact_acc=0.5000 best_exact=0.5625
+step=18500/30000 train_loss=0.0277 eval_loss=0.0289 token_acc=0.9059 exact_acc=0.3125 best_exact=0.5625
+step=19000/30000 train_loss=0.0222 eval_loss=0.0283 token_acc=0.9282 exact_acc=0.4062 best_exact=0.5625
+step=19500/30000 train_loss=0.0217 eval_loss=0.0216 token_acc=0.9363 exact_acc=0.5312 best_exact=0.5625
+step=20000/30000 train_loss=0.0277 eval_loss=0.0216 token_acc=0.9275 exact_acc=0.6875 best_exact=0.6875
+step=20500/30000 train_loss=0.0252 eval_loss=0.0219 token_acc=0.9062 exact_acc=0.4688 best_exact=0.6875
+step=21000/30000 train_loss=0.0267 eval_loss=0.0298 token_acc=0.9047 exact_acc=0.4375 best_exact=0.6875
+step=21500/30000 train_loss=0.0201 eval_loss=0.0312 token_acc=0.8939 exact_acc=0.4062 best_exact=0.6875
+step=22000/30000 train_loss=0.0192 eval_loss=0.0187 token_acc=0.9429 exact_acc=0.5625 best_exact=0.6875
+step=22500/30000 train_loss=0.0213 eval_loss=0.0252 token_acc=0.9132 exact_acc=0.3750 best_exact=0.6875
+step=23000/30000 train_loss=0.0208 eval_loss=0.0277 token_acc=0.9479 exact_acc=0.5312 best_exact=0.6875
+step=23500/30000 train_loss=0.0182 eval_loss=0.0250 token_acc=0.9363 exact_acc=0.5000 best_exact=0.6875
+step=24000/30000 train_loss=0.0185 eval_loss=0.0233 token_acc=0.9495 exact_acc=0.5938 best_exact=0.6875
+step=24500/30000 train_loss=0.0185 eval_loss=0.0252 token_acc=0.9217 exact_acc=0.4688 best_exact=0.6875
+step=25000/30000 train_loss=0.0236 eval_loss=0.0162 token_acc=0.9039 exact_acc=0.4062 best_exact=0.6875
+step=25500/30000 train_loss=0.0208 eval_loss=0.0211 token_acc=0.9248 exact_acc=0.5000 best_exact=0.6875
+step=26000/30000 train_loss=0.0212 eval_loss=0.0282 token_acc=0.9035 exact_acc=0.3750 best_exact=0.6875
+step=26500/30000 train_loss=0.0173 eval_loss=0.0194 token_acc=0.9410 exact_acc=0.6562 best_exact=0.6875
+step=27000/30000 train_loss=0.0213 eval_loss=0.0139 token_acc=0.9201 exact_acc=0.4375 best_exact=0.6875
+step=27500/30000 train_loss=0.0188 eval_loss=0.0183 token_acc=0.9186 exact_acc=0.5000 best_exact=0.6875
+step=28000/30000 train_loss=0.0239 eval_loss=0.0195 token_acc=0.9244 exact_acc=0.5625 best_exact=0.6875
+step=28500/30000 train_loss=0.0224 eval_loss=0.0166 token_acc=0.9510 exact_acc=0.5625 best_exact=0.6875
+step=29000/30000 train_loss=0.0243 eval_loss=0.0221 token_acc=0.9614 exact_acc=0.7188 best_exact=0.7188
+step=29500/30000 train_loss=0.0226 eval_loss=0.0205 token_acc=0.9105 exact_acc=0.4062 best_exact=0.7188
+step=30000/30000 train_loss=0.0196 eval_loss=0.0140 token_acc=0.9599 exact_acc=0.6562 best_exact=0.7188
+
+[tfcos] best: token_acc=0.9614 exact_acc=0.7188

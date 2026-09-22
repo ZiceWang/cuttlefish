@@ -1,0 +1,12 @@
+{
+  "arch": "cutshared4",
+  "parameters": 3192588,
+  "hidden": 108,
+  "layers": 8,
+  "steps": 10000,
+  "best": {
+    "loss": 0.031704314053058624,
+    "token_accuracy": 0.9101080298423767,
+    "exact_accuracy": 0.375
+  }
+}

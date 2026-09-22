@@ -1,0 +1,10 @@
+{
+  "arch": "bdhbest",
+  "params": 2869248,
+  "hidden": 128,
+  "layers": 4,
+  "steps": 1500,
+  "path_f1": 0.1259,
+  "path_row_exact": 0.0,
+  "auto_connected": 0.0
+}

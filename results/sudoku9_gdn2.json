@@ -1,0 +1,20 @@
+{
+  "params": 2723326,
+  "config": {
+    "steps": 30000,
+    "batch_size": 64,
+    "eval_examples": 32,
+    "eval_every": 500,
+    "seed": 1337,
+    "lr": 0.001,
+    "hidden": 192,
+    "layers": 5,
+    "heads": 6,
+    "head_dim": 32
+  },
+  "best": {
+    "token_accuracy": 0.7966821193695068,
+    "exact_accuracy": 0.5,
+    "step": 28000
+  }
+}

@@ -1,0 +1,83 @@
+ultrachat {'target': 60000, 'accepted': 60000, 'scanned': 60011, 'repo': 'HuggingFaceH4/ultrachat_200k', 'config': None, 'license': 'mit'}
+dolly {'target': 12000, 'accepted': 12000, 'scanned': 12013, 'repo': 'databricks/databricks-dolly-15k', 'config': None, 'license': 'cc-by-sa-3.0'}
+sciq {'target': 10000, 'accepted': 10000, 'scanned': 10002, 'repo': 'allenai/sciq', 'config': None, 'license': 'cc-by-nc-3.0'}
+squad {'target': 10000, 'accepted': 10000, 'scanned': 10016, 'repo': 'rajpurkar/squad', 'config': None, 'license': 'cc-by-sa-4.0'}
+arc_easy {'target': 2251, 'accepted': 2251, 'scanned': 2251, 'repo': 'allenai/ai2_arc', 'config': 'ARC-Easy', 'license': 'cc-by-sa-4.0'}
+arc_challenge {'target': 1119, 'accepted': 1118, 'scanned': 1119, 'repo': 'allenai/ai2_arc', 'config': 'ARC-Challenge', 'license': 'cc-by-sa-4.0'}
+commonsenseqa {'target': 9741, 'accepted': 9741, 'scanned': 9741, 'repo': 'tau/commonsense_qa', 'config': None, 'license': 'mit'}
+{
+  "name": "sft_cherry_v1",
+  "seed": 20260911,
+  "format": "ChatML",
+  "max_tokens": null,
+  "train_examples": 104059,
+  "validation_examples": 1051,
+  "total_examples": 105110,
+  "total_characters": 378424718,
+  "special_tokens_required": [
+    "<|im_start|>",
+    "<|im_end|>",
+    "<|pad|>"
+  ],
+  "loss_policy": "assistant spans only, including assistant <|im_end|>",
+  "length_policy": "No build-time truncation; bucket/pack at the chosen SFT context length.",
+  "usage_note": "Contains SciQ CC-BY-NC-3.0; default mixture is research/non-commercial.",
+  "sources": {
+    "ultrachat": {
+      "target": 60000,
+      "accepted": 60000,
+      "scanned": 60011,
+      "repo": "HuggingFaceH4/ultrachat_200k",
+      "config": null,
+      "license": "mit"
+    },
+    "dolly": {
+      "target": 12000,
+      "accepted": 12000,
+      "scanned": 12013,
+      "repo": "databricks/databricks-dolly-15k",
+      "config": null,
+      "license": "cc-by-sa-3.0"
+    },
+    "sciq": {
+      "target": 10000,
+      "accepted": 10000,
+      "scanned": 10002,
+      "repo": "allenai/sciq",
+      "config": null,
+      "license": "cc-by-nc-3.0"
+    },
+    "squad": {
+      "target": 10000,
+      "accepted": 10000,
+      "scanned": 10016,
+      "repo": "rajpurkar/squad",
+      "config": null,
+      "license": "cc-by-sa-4.0"
+    },
+    "arc_easy": {
+      "target": 2251,
+      "accepted": 2251,
+      "scanned": 2251,
+      "repo": "allenai/ai2_arc",
+      "config": "ARC-Easy",
+      "license": "cc-by-sa-4.0"
+    },
+    "arc_challenge": {
+      "target": 1119,
+      "accepted": 1118,
+      "scanned": 1119,
+      "repo": "allenai/ai2_arc",
+      "config": "ARC-Challenge",
+      "license": "cc-by-sa-4.0"
+    },
+    "commonsenseqa": {
+      "target": 9741,
+      "accepted": 9741,
+      "scanned": 9741,
+      "repo": "tau/commonsense_qa",
+      "config": null,
+      "license": "mit"
+    }
+  }
+}

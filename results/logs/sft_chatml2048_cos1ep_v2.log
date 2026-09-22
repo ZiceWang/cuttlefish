@@ -1,0 +1,73 @@
+model_params=136,514,560 device=cuda context=2048 vocab=4099
+update=1 epoch=1 loss=4.1469 lr=1.000e-06 supervised_tok/s=15,866
+update=50 epoch=1 loss=3.2292 lr=5.000e-05 supervised_tok/s=20,004
+update=100 epoch=1 loss=2.6660 lr=1.000e-04 supervised_tok/s=20,143
+update=150 epoch=1 loss=2.1113 lr=9.994e-05 supervised_tok/s=20,224
+update=200 epoch=1 loss=2.3117 lr=9.977e-05 supervised_tok/s=20,002
+update=250 epoch=1 loss=1.7840 lr=9.949e-05 supervised_tok/s=19,848
+update=300 epoch=1 loss=1.8286 lr=9.909e-05 supervised_tok/s=19,681
+update=350 epoch=1 loss=2.5332 lr=9.857e-05 supervised_tok/s=19,664
+update=400 epoch=1 loss=1.5070 lr=9.795e-05 supervised_tok/s=19,627
+update=450 epoch=1 loss=2.2624 lr=9.722e-05 supervised_tok/s=19,587
+update=500 epoch=1 loss=1.7249 lr=9.638e-05 supervised_tok/s=19,579
+eval update=500 {'loss': 1.8994886354383793, 'perplexity': 6.682476386809453, 'assistant_tokens': 47975}
+update=550 epoch=1 loss=1.8885 lr=9.544e-05 supervised_tok/s=19,496
+update=600 epoch=1 loss=1.7934 lr=9.439e-05 supervised_tok/s=19,594
+update=650 epoch=1 loss=1.4777 lr=9.324e-05 supervised_tok/s=19,658
+update=700 epoch=1 loss=1.7610 lr=9.199e-05 supervised_tok/s=19,694
+update=750 epoch=1 loss=1.9524 lr=9.065e-05 supervised_tok/s=19,739
+update=800 epoch=1 loss=1.8136 lr=8.922e-05 supervised_tok/s=19,770
+update=850 epoch=1 loss=2.2170 lr=8.771e-05 supervised_tok/s=19,760
+update=900 epoch=1 loss=1.9561 lr=8.611e-05 supervised_tok/s=19,774
+update=950 epoch=1 loss=1.7257 lr=8.443e-05 supervised_tok/s=19,801
+update=1000 epoch=1 loss=2.0753 lr=8.267e-05 supervised_tok/s=19,813
+eval update=1000 {'loss': 1.810184414591747, 'perplexity': 6.111574391809917, 'assistant_tokens': 47975}
+update=1050 epoch=1 loss=1.5550 lr=8.084e-05 supervised_tok/s=19,691
+update=1100 epoch=1 loss=1.9322 lr=7.895e-05 supervised_tok/s=19,665
+update=1150 epoch=1 loss=1.3591 lr=7.700e-05 supervised_tok/s=19,642
+update=1200 epoch=1 loss=1.5573 lr=7.499e-05 supervised_tok/s=19,611
+update=1250 epoch=1 loss=1.5489 lr=7.293e-05 supervised_tok/s=19,591
+update=1300 epoch=1 loss=1.8919 lr=7.083e-05 supervised_tok/s=19,575
+update=1350 epoch=1 loss=2.0256 lr=6.868e-05 supervised_tok/s=19,581
+update=1400 epoch=1 loss=1.3152 lr=6.650e-05 supervised_tok/s=19,557
+update=1450 epoch=1 loss=1.9169 lr=6.429e-05 supervised_tok/s=19,547
+update=1500 epoch=1 loss=2.2642 lr=6.206e-05 supervised_tok/s=19,553
+eval update=1500 {'loss': 1.7680857924659654, 'perplexity': 5.859626078749773, 'assistant_tokens': 47975}
+update=1550 epoch=1 loss=1.6887 lr=5.981e-05 supervised_tok/s=19,495
+update=1600 epoch=1 loss=1.5489 lr=5.754e-05 supervised_tok/s=19,498
+update=1650 epoch=1 loss=2.1061 lr=5.527e-05 supervised_tok/s=19,504
+update=1700 epoch=1 loss=2.0635 lr=5.300e-05 supervised_tok/s=19,514
+update=1750 epoch=1 loss=1.5494 lr=5.074e-05 supervised_tok/s=19,526
+update=1800 epoch=1 loss=1.6272 lr=4.848e-05 supervised_tok/s=19,514
+update=1850 epoch=1 loss=1.6645 lr=4.624e-05 supervised_tok/s=19,504
+update=1900 epoch=1 loss=1.9069 lr=4.403e-05 supervised_tok/s=19,500
+update=1950 epoch=1 loss=2.0626 lr=4.184e-05 supervised_tok/s=19,492
+update=2000 epoch=1 loss=1.5251 lr=3.969e-05 supervised_tok/s=19,498
+eval update=2000 {'loss': 1.74715716244219, 'perplexity': 5.738266506927645, 'assistant_tokens': 47975}
+update=2050 epoch=1 loss=1.6166 lr=3.757e-05 supervised_tok/s=19,492
+update=2100 epoch=1 loss=1.4772 lr=3.550e-05 supervised_tok/s=19,503
+update=2150 epoch=1 loss=1.7196 lr=3.348e-05 supervised_tok/s=19,520
+update=2200 epoch=1 loss=1.5616 lr=3.151e-05 supervised_tok/s=19,532
+update=2250 epoch=1 loss=1.5385 lr=2.960e-05 supervised_tok/s=19,534
+update=2300 epoch=1 loss=1.5542 lr=2.776e-05 supervised_tok/s=19,527
+update=2350 epoch=1 loss=1.6394 lr=2.599e-05 supervised_tok/s=19,522
+update=2400 epoch=1 loss=2.2197 lr=2.429e-05 supervised_tok/s=19,523
+update=2450 epoch=1 loss=1.5850 lr=2.267e-05 supervised_tok/s=19,527
+update=2500 epoch=1 loss=1.5932 lr=2.113e-05 supervised_tok/s=19,532
+eval update=2500 {'loss': 1.7326201543365685, 'perplexity': 5.655452671282523, 'assistant_tokens': 47975}
+update=2550 epoch=1 loss=1.7049 lr=1.968e-05 supervised_tok/s=19,504
+update=2600 epoch=1 loss=1.4686 lr=1.832e-05 supervised_tok/s=19,547
+update=2650 epoch=1 loss=1.5995 lr=1.705e-05 supervised_tok/s=19,581
+update=2700 epoch=1 loss=1.9231 lr=1.588e-05 supervised_tok/s=19,582
+update=2750 epoch=1 loss=2.0194 lr=1.481e-05 supervised_tok/s=19,574
+update=2800 epoch=1 loss=1.2376 lr=1.384e-05 supervised_tok/s=19,561
+update=2850 epoch=1 loss=1.6239 lr=1.297e-05 supervised_tok/s=19,562
+update=2900 epoch=1 loss=1.8291 lr=1.221e-05 supervised_tok/s=19,574
+update=2950 epoch=1 loss=1.6156 lr=1.156e-05 supervised_tok/s=19,584
+update=3000 epoch=1 loss=1.4750 lr=1.103e-05 supervised_tok/s=19,590
+eval update=3000 {'loss': 1.7261548449509836, 'perplexity': 5.619006365324369, 'assistant_tokens': 47975}
+update=3050 epoch=1 loss=1.5925 lr=1.060e-05 supervised_tok/s=19,579
+update=3100 epoch=1 loss=1.6407 lr=1.029e-05 supervised_tok/s=19,576
+update=3150 epoch=1 loss=1.7025 lr=1.009e-05 supervised_tok/s=19,586
+update=3200 epoch=1 loss=2.1464 lr=1.000e-05 supervised_tok/s=19,599
+complete updates=3212 supervised_tokens=78,087,848

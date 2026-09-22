@@ -1,0 +1,13 @@
+{
+  "model": "bdh_best",
+  "recurrences": 3,
+  "parameters": 6367936,
+  "steps": 10000,
+  "best_metrics": {
+    "loss": 1.399551521986723,
+    "perplexity": 4.053381706575456,
+    "accuracy": 0.5837478637695312,
+    "tokens": 131072
+  },
+  "elapsed_minutes": 0.002944469451904297
+}

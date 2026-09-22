@@ -1,0 +1,13 @@
+{
+  "model": "transformer",
+  "recurrences": 3,
+  "parameters": 106890368,
+  "steps": 100,
+  "best_metrics": {
+    "loss": 6.248106092214584,
+    "perplexity": 517.0326845871937,
+    "accuracy": 0.07523345947265625,
+    "tokens": 131072
+  },
+  "elapsed_minutes": 3.679593404134115e-05
+}

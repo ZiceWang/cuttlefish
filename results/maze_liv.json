@@ -1,0 +1,10 @@
+{
+  "arch": "liv",
+  "params": 2881072,
+  "hidden": 184,
+  "layers": 5,
+  "steps": 1500,
+  "path_f1": 0.1386,
+  "path_row_exact": 0.0,
+  "auto_connected": 0.0
+}

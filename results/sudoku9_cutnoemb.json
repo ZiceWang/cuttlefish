@@ -1,0 +1,12 @@
+{
+  "arch": "cutnoemb",
+  "parameters": 2845928,
+  "hidden": 92,
+  "layers": 8,
+  "steps": 30000,
+  "best": {
+    "loss": 0.018814966082572937,
+    "token_accuracy": 0.964506208896637,
+    "exact_accuracy": 0.75
+  }
+}

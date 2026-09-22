@@ -1,0 +1,2 @@
+hyena: token_acc=0.9536 exact_acc=0.6252 (4096 样本)
+已保存 runs/sudoku9_official.json

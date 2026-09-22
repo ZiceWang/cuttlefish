@@ -1,0 +1,4 @@
+PIQA         n=299  signedexpnoabs=0.629  transformer=0.642  (基线 0.5)
+HellaSwag    n=300  signedexpnoabs=0.303  transformer=0.300  (基线 0.25)
+Winogrande   n=300  signedexpnoabs=0.510  transformer=0.477  (基线 0.5)
+ARC-Easy     n=298  signedexpnoabs=0.399  transformer=0.376  (基线 0.25)

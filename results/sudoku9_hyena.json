@@ -1,0 +1,12 @@
+{
+  "arch": "hyena",
+  "parameters": 2773981,
+  "hidden": 208,
+  "layers": 5,
+  "steps": 30000,
+  "best": {
+    "loss": 0.015202851966023445,
+    "token_accuracy": 0.9702932238578796,
+    "exact_accuracy": 0.78125
+  }
+}

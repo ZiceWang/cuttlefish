@@ -1,0 +1,12 @@
+{
+  "arch": "pat112norm",
+  "parameters": 2729400,
+  "hidden": 120,
+  "layers": 6,
+  "steps": 30000,
+  "best": {
+    "loss": 0.019712403416633606,
+    "token_accuracy": 0.9371141791343689,
+    "exact_accuracy": 0.65625
+  }
+}

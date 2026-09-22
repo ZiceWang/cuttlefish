@@ -1,0 +1,12 @@
+{
+  "arch": "linearfish",
+  "parameters": 2776192,
+  "hidden": 128,
+  "layers": 4,
+  "steps": 10000,
+  "best": {
+    "loss": 0.02842649631202221,
+    "token_accuracy": 0.8865740895271301,
+    "exact_accuracy": 0.4375
+  }
+}

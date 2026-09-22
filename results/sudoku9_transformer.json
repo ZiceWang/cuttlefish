@@ -1,0 +1,12 @@
+{
+  "arch": "transformer",
+  "parameters": 2743608,
+  "hidden": 168,
+  "layers": 8,
+  "steps": 30000,
+  "best": {
+    "loss": 0.014391213655471802,
+    "token_accuracy": 0.9513888955116272,
+    "exact_accuracy": 0.71875
+  }
+}

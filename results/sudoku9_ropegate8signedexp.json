@@ -1,0 +1,12 @@
+{
+  "arch": "ropegate8signedexp",
+  "parameters": 2884476,
+  "hidden": 92,
+  "layers": 8,
+  "steps": 30000,
+  "best": {
+    "loss": 0.008440174162387848,
+    "token_accuracy": 0.9861111044883728,
+    "exact_accuracy": 0.90625
+  }
+}

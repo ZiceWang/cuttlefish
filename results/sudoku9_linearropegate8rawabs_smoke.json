@@ -1,0 +1,12 @@
+{
+  "arch": "linearropegate8rawabs",
+  "parameters": 2884476,
+  "hidden": 92,
+  "layers": 8,
+  "steps": 2,
+  "best": {
+    "loss": 2.337975025177002,
+    "token_accuracy": 0.1111111119389534,
+    "exact_accuracy": 0.0
+  }
+}

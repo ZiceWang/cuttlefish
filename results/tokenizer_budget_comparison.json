@@ -1,0 +1,11 @@
+{
+  "documents": 2000,
+  "our_bpe4096_tokens": 4522760,
+  "smollm2_tokens": 3498167,
+  "smollm2_per_our_token_ratio": 0.7734584634161441,
+  "our_per_smollm2_ratio": 1.2928942500458096,
+  "median_document_ratio": 0.7585174055734208,
+  "trained_our_tokens": 9994240000,
+  "equivalent_smollm2_tokens": 7730129513,
+  "smollm2_vocab_size": 49152
+}

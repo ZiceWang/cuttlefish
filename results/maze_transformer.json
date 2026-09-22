@@ -1,0 +1,10 @@
+{
+  "arch": "transformer",
+  "params": 2865744,
+  "hidden": 168,
+  "layers": 8,
+  "steps": 1500,
+  "path_f1": 0.1331,
+  "path_row_exact": 0.0,
+  "auto_connected": 0.0
+}

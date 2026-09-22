@@ -1,0 +1,44 @@
+{
+  "difficulty>=0 (n=1000)": {
+    "teacher_token": {
+      "bdhbest": 0.7964,
+      "transformer": 0.7566,
+      "liv": 0.1249,
+      "hyena": 0.8518
+    },
+    "autoreg_exact": {
+      "bdhbest": 0.0,
+      "transformer": 0.0,
+      "liv": 0.0,
+      "hyena": 0.0
+    }
+  },
+  "difficulty>=30 (n=1000)": {
+    "teacher_token": {
+      "bdhbest": 0.7956,
+      "transformer": 0.7545,
+      "liv": 0.1206,
+      "hyena": 0.8475
+    },
+    "autoreg_exact": {
+      "bdhbest": 0.0,
+      "transformer": 0.0,
+      "liv": 0.0,
+      "hyena": 0.0
+    }
+  },
+  "difficulty>=100 (n=1000)": {
+    "teacher_token": {
+      "bdhbest": 0.7918,
+      "transformer": 0.7566,
+      "liv": 0.1216,
+      "hyena": 0.844
+    },
+    "autoreg_exact": {
+      "bdhbest": 0.0,
+      "transformer": 0.0,
+      "liv": 0.0,
+      "hyena": 0.0
+    }
+  }
+}

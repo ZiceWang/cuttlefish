@@ -1,0 +1,18 @@
+{
+  "checkpoint": "experiments/bdh_orig/runs/big_formal512_10shard_1ep.best.pt",
+  "baseline": {
+    "loss": 2.688764661550522,
+    "perplexity": 14.713488550844197,
+    "accuracy": 0.4542236328125,
+    "tokens": 65536
+  },
+  "remove_signed_exp": {
+    "loss": 4.780200183391571,
+    "perplexity": 119.12819514417349,
+    "accuracy": 0.1584320068359375,
+    "tokens": 65536
+  },
+  "prompt": "Artificial intelligence is",
+  "baseline_text": "Artificial intelligence is a powerful tool for the development of artificial intelligence.\n\nThe first step is to understand the intelligence of the artificial",
+  "remove_signed_exp_text": "Artificial intelligence is a good for the balls, and the Sanaśāhāhāhaśāha�"
+}

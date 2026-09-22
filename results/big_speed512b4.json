@@ -1,0 +1,8 @@
+{
+  "model": "ropegate8signedexpnoabs",
+  "recurrences": 1,
+  "parameters": 136511488,
+  "steps": 20,
+  "best_metrics": null,
+  "elapsed_minutes": 0.0
+}

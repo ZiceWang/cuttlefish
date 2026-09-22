@@ -1,0 +1,16 @@
+{
+  "clues_any_any": {
+    "ropegate8signedexp": {
+      "token_acc": 0.97,
+      "exact_acc": 0.7407,
+      "examples": 4096
+    }
+  },
+  "clues_17_27": {
+    "hyenadil": {
+      "token_acc": 0.4691,
+      "exact_acc": 0.0,
+      "examples": 4096
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "arch": "deepnormpos",
+  "parameters": 2860924,
+  "hidden": 92,
+  "layers": 8,
+  "steps": 30000,
+  "best": {
+    "loss": 0.021032040938735008,
+    "token_accuracy": 0.9452160596847534,
+    "exact_accuracy": 0.71875
+  }
+}

@@ -1,0 +1,4 @@
+ultrachat {'target': 60000, 'accepted': 60000, 'scanned': 173659, 'repo': 'HuggingFaceH4/ultrachat_200k', 'config': None, 'license': 'mit'}
+dolly {'target': 12000, 'accepted': 12000, 'scanned': 13640, 'repo': 'databricks/databricks-dolly-15k', 'config': None, 'license': 'cc-by-sa-3.0'}
+sciq {'target': 10000, 'accepted': 10000, 'scanned': 10441, 'repo': 'allenai/sciq', 'config': None, 'license': 'cc-by-nc-3.0'}
+squad {'target': 10000, 'accepted': 10000, 'scanned': 10330, 'repo': 'rajpurkar/squad', 'config': None, 'license': 'cc-by-sa-4.0'}

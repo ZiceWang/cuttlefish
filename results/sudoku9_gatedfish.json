@@ -1,0 +1,12 @@
+{
+  "arch": "gatedfish",
+  "parameters": 2810406,
+  "hidden": 118,
+  "layers": 4,
+  "steps": 6,
+  "best": {
+    "loss": 2.3013248443603516,
+    "token_accuracy": 0.0972222238779068,
+    "exact_accuracy": 0.0
+  }
+}

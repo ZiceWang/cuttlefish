@@ -1,0 +1,13 @@
+{
+  "model": "ropegate8signedexpnoabs",
+  "recurrences": 1,
+  "parameters": 105919200,
+  "steps": 3,
+  "best_metrics": {
+    "loss": 7.565989017486572,
+    "perplexity": 1931.3780013899648,
+    "accuracy": 0.05999755859375,
+    "tokens": 16384
+  },
+  "elapsed_minutes": 5.666414896647135e-06
+}

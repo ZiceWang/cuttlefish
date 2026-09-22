@@ -1,0 +1,10 @@
+{
+  "arch": "hyena",
+  "params": 2936252,
+  "hidden": 208,
+  "layers": 5,
+  "steps": 1500,
+  "path_f1": 0.1458,
+  "path_row_exact": 0.0,
+  "auto_connected": 0.0
+}

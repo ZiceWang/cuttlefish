@@ -1,0 +1,26 @@
+{
+  "PIQA": {
+    "signedexpnoabs": 0.6355,
+    "transformer": 0.6421,
+    "baseline": 0.5,
+    "n": 299
+  },
+  "HellaSwag": {
+    "signedexpnoabs": 0.2767,
+    "transformer": 0.3,
+    "baseline": 0.25,
+    "n": 300
+  },
+  "Winogrande": {
+    "signedexpnoabs": 0.5,
+    "transformer": 0.4767,
+    "baseline": 0.5,
+    "n": 300
+  },
+  "ARC-Easy": {
+    "signedexpnoabs": 0.3725,
+    "transformer": 0.3758,
+    "baseline": 0.25,
+    "n": 298
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "model": "ropegate8signedexpnoabs",
+  "recurrences": 1,
+  "parameters": 136511488,
+  "steps": 100,
+  "training_tokens": 819200,
+  "training_seconds": 66.00812249199953,
+  "tokens_per_second": 12410.59386440344,
+  "peak_cuda_memory_gib": 10.645121574401855,
+  "best_metrics": null,
+  "elapsed_minutes": 1.100135374866659
+}

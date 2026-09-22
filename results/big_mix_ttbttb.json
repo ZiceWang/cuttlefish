@@ -1,0 +1,13 @@
+{
+  "model": "mix",
+  "recurrences": 2,
+  "parameters": 7299880,
+  "steps": 10000,
+  "best_metrics": {
+    "loss": 1.3270745649933815,
+    "perplexity": 3.7699983545215114,
+    "accuracy": 0.604400634765625,
+    "tokens": 131072
+  },
+  "elapsed_minutes": 0.002272923787434896
+}

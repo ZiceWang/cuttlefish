@@ -1,0 +1,8 @@
+{
+  "model": "gdn2",
+  "parameters": 2723326,
+  "examples": 4096,
+  "seed": 555,
+  "token_accuracy": 0.7984121817129629,
+  "exact_accuracy": 0.35107421875
+}

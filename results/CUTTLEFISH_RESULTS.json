@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "notes": [
+    "This aggregate was reconstructed from the independent evidence files listed in each result entry.",
+    "runs/sudoku9_official.json is intentionally excluded because the evaluator overwrites it on each architecture run.",
+    "The literal absolute-degree code path is quadratic. Because its output is immediately LayerNormed, the preferred clean linear form removes that scalar divisor and applies the same per-head LayerNorm to the exact O(T) numerator; finite-epsilon parity still requires checkpoint-level verification."
+  ],
+  "sudoku9_30k_4096": {
+    "protocol": {
+      "training_steps": 30000,
+      "evaluation_examples": 4096,
+      "autoregressive": true
+    },
+    "results": {
+      "transformer_rope": {
+        "token_accuracy": 0.9682,
+        "exact_accuracy": 0.7676,
+        "evidence": "runs/eval_tfrope.log"
+      },
+      "cuttlefish_ropegate8": {
+        "parameters": 2884476,
+        "token_accuracy": 0.966,
+        "exact_accuracy": 0.7246,
+        "difference_vs_cutdeep_norm": 0.1265,
+        "evidence": [
+          "runs/sudoku9_ropegate8.json",
+          "runs/sudoku9_ropegate8.log",
+          "runs/eval_ropegate8.log"
+        ]
+      },
+      "hyena": {
+        "token_accuracy": 0.9536,
+        "exact_accuracy": 0.6252,
+        "evidence": "runs/eval_hyena30k.log"
+      },
+      "transformer_learned_position": {
+        "token_accuracy": 0.9276,
+        "exact_accuracy": 0.6072,
+        "evidence": "runs/eval_transformer30k.log"
+      },
+      "cutdeep_norm": {
+        "token_accuracy": 0.936,
+        "exact_accuracy": 0.5981,
+        "evidence": "runs/eval_deepnorm.log"
+      },
+      "cut_no_learned_position": {
+        "token_accuracy": 0.9258,
+        "exact_accuracy": 0.5691,
+        "evidence": "runs/eval_cutnoemb.log"
+      },
+      "shared_112112_degree_norm": {
+        "token_accuracy": 0.9088,
+        "exact_accuracy": 0.5168,
+        "evidence": "runs/eval_pat112norm.log"
+      },
+      "transformer_cosine_degree_norm": {
+        "token_accuracy": 0.9194,
+        "exact_accuracy": 0.4856,
+        "evidence": "runs/eval_tfcos_valid.log"
+      },
+      "liv": {
+        "token_accuracy": 0.1117,
+        "exact_accuracy": 0.0,
+        "evidence": "runs/eval_liv30k.log"
+      }
+    }
+  },
+  "language_model_100m_80k": {
+    "cuttlefish": {
+      "parameters": 105861600,
+      "steps": 80000,
+      "validation_loss": 2.834439270198345,
+      "perplexity": 17.020853524244735,
+      "token_accuracy": 0.43592071533203125,
+      "evidence": [
+        "runs/big_night2_norm.json",
+        "runs/night2_norm.log"
+      ]
+    },
+    "transformer": {
+      "parameters": 106890368,
+      "steps": 80000,
+      "validation_loss": 2.7243084013462067,
+      "perplexity": 15.245866259322382,
+      "token_accuracy": 0.4510459899902344,
+      "evidence": [
+        "runs/big_night_tf2.json",
+        "runs/night_tf2.log"
+      ]
+    }
+  },
+  "easy_zero_shot": {
+    "PIQA": {
+      "cuttlefish": 0.612,
+      "transformer": 0.6421,
+      "random_baseline": 0.5,
+      "examples": 299
+    },
+    "HellaSwag": {
+      "cuttlefish": 0.2767,
+      "transformer": 0.3,
+      "random_baseline": 0.25,
+      "examples": 300
+    },
+    "Winogrande": {
+      "cuttlefish": 0.49,
+      "transformer": 0.4767,
+      "random_baseline": 0.5,
+      "examples": 300
+    },
+    "ARC-Easy": {
+      "cuttlefish": 0.3826,
+      "transformer": 0.3758,
+      "random_baseline": 0.25,
+      "examples": 298
+    },
+    "evidence": "runs/easy_bench.json"
+  },
+  "linear_fish": {
+    "scope": "unnormalized Gram relation operator",
+    "exact_same_weight_max_logit_difference": 0.0,
+    "sudoku9_exact_accuracy": 0.3398,
+    "evidence": "runs/eval_linearfish.log",
+    "limitation": "The absolute-degree denominator is not exactly prefix-factorizable, but it is largely canceled by the immediately following per-head LayerNorm."
+  }
+}

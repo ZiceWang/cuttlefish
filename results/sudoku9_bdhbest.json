@@ -1,0 +1,23 @@
+{
+  "parameters": 2776192,
+  "steps": 10000,
+  "config": {
+    "steps": 10000,
+    "batch_size": 64,
+    "eval_examples": 32,
+    "eval_every": 500,
+    "seed": 1337,
+    "n_embd": 128,
+    "n_layer": 4,
+    "recurrences": 2,
+    "mixer_mult": 5,
+    "lr": 0.001,
+    "compile": true,
+    "output": "runs/sudoku9_bdhbest.json"
+  },
+  "best": {
+    "loss": 0.03249737247824669,
+    "token_accuracy": 0.883873462677002,
+    "exact_accuracy": 0.4375
+  }
+}

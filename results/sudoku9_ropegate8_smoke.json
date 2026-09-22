@@ -1,0 +1,12 @@
+{
+  "arch": "ropegate8",
+  "parameters": 2884476,
+  "hidden": 92,
+  "layers": 8,
+  "steps": 2,
+  "best": {
+    "loss": 2.3379595279693604,
+    "token_accuracy": 0.1111111119389534,
+    "exact_accuracy": 0.0
+  }
+}
